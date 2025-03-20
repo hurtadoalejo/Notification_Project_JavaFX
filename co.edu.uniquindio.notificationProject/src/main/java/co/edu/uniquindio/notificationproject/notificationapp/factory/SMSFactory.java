@@ -1,11 +1,11 @@
 package co.edu.uniquindio.notificationproject.notificationapp.factory;
 
-import co.edu.uniquindio.notificationproject.notificationapp.model.*;
+import co.edu.uniquindio.notificationproject.notificationapp.model.SMS;
 import co.edu.uniquindio.notificationproject.notificationapp.services.INotification;
 
-public class EmailFactory extends NotificationFactory{
+public class SMSFactory extends NotificationFactory{
     @Override
     public INotification createNotification() {
-        return new Email();
+        return new SMS();
     }
 }

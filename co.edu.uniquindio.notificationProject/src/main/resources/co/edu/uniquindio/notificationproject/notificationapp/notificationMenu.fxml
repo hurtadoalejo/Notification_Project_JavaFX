@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1200.0" style="-fx-background-color: #aba8a6;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.notificationproject.notificationapp.viewController.NotificationMenuViewController">
+   <children>
+      <Label fx:id="lbl_notificationMenu" layoutX="357.0" layoutY="53.0" text="Notification Menu" textFill="#434343">
+         <font>
+            <Font name="Calibri Bold" size="64.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb_message" layoutX="157.0" layoutY="332.0" text="Message:" textFill="#434343">
+         <font>
+            <Font name="Verdana Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="lb_typeNotification" layoutX="144.0" layoutY="214.0" text="Type of notification: " textFill="#434343">
+         <font>
+            <Font name="Verdana Bold" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="bt_sendMessage" layoutX="344.0" layoutY="498.0" mnemonicParsing="false" onAction="#onSendMessage" style="-fx-background-color: #8f8b89; -fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #434343; -fx-border-width: 2;" text="Send Message" textFill="#434343">
+         <font>
+            <Font name="Calibri Bold" size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="bt_clean" layoutX="683.0" layoutY="498.0" mnemonicParsing="false" onAction="#onClean" style="-fx-background-color: #8f8b89; -fx-background-radius: 20; -fx-border-radius: 20; -fx-border-color: #434343; -fx-border-width: 2;" text="Clean" textFill="#434343">
+         <font>
+            <Font name="Calibri Bold" size="36.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txt_message" layoutX="400.0" layoutY="330.0" prefHeight="50.0" prefWidth="675.0" style="-fx-background-color: #bcb4b0; -fx-text-fill: #434343; -fx-border-color: #434343; -fx-border-radius: 20; -fx-background-radius: 20; -fx-border-width: 2;">
+         <font>
+            <Font name="Verdana" size="24.0" />
+         </font>
+      </TextField>
+      <ComboBox fx:id="cb_typeNotification" layoutX="619.0" layoutY="212.0" prefHeight="50.0" prefWidth="247.0" style="-fx-font-size: 24px;" />
+   </children>
+</Pane>

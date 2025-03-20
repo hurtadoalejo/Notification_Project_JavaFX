@@ -1,5 +1,6 @@
 package co.edu.uniquindio.notificationproject.notificationapp;
 
+import co.edu.uniquindio.notificationproject.notificationapp.viewController.NotificationMenuViewController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
